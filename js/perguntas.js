@@ -3,26 +3,28 @@ export const perguntas = [
 ]
 
 const perguntas = [
-  {
-    enunciado:
-      "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-    alternativas: [
-      {
-        texto: "Isso é assustador!",
-        afirmacao: [
-          "No início ficou com medo do que essa tecnologia pode fazer.",
-          "Achou assustador pensar na velocidade na qual a tecnologia está avançando.",
-        ],
-      },
-      {
-        texto: "Isso é maravilhoso!",
-        afirmacao: [
-          "Quis saber como usar IA no seu dia a dia.",
-          "Foi atrás de vídeos, artigos e mais informações sobre como utilizar essa tecnologia.",
-        ],
-      },
-    ],
-  },
+  
+   {
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        alternativas: [
+                {
+                        texto: "Isso é assustador!",
+                        afirmacao: [
+                                "No início ficou com medo do que essa tecnologia pode fazer.",
+                                "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                        ],
+                        proxima: 1,
+                },
+                {
+                        texto: "Isso é maravilhoso!",
+                        afirmacao: [
+                                "Quis saber como usar IA no seu dia a dia.",
+                                "Pensou que IA pode ajudar em tarefas da sua vida."
+                        ],
+                        proxima: 2,
+                },
+        ]
+},
   {
     enunciado:
       "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre ela. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
@@ -64,23 +66,25 @@ const perguntas = [
     ],
   },
   {
-    enunciado:
-      "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-    alternativas: [
-      {
-        texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-        afirmacao: [
-          "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-        ],
-      },
-      {
-        texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-        afirmacao: [
-          "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-        ],
-      },
-    ],
-  },
+        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        alternativas: [
+                {
+                        texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                        afirmacao: [
+                                "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
+                                "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                        ],
+                },
+                {
+                        texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                        afirmacao: [
+                                "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
+                                "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
+                                "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                        ],
+                },
+        ]
+},
   {
     enunciado:
       "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
